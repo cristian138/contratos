@@ -1,0 +1,190 @@
+{
+  "typography": {
+    "font_family": {
+      "headings": "Manrope, sans-serif",
+      "body": "IBM Plex Sans, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700,
+      "black": 900
+    },
+    "sizes": {
+      "h1": "text-4xl md:text-5xl tracking-tight font-bold",
+      "h2": "text-3xl md:text-4xl tracking-tight font-bold",
+      "h3": "text-2xl md:text-3xl tracking-normal font-semibold",
+      "body_lg": "text-lg leading-relaxed",
+      "body_base": "text-base leading-relaxed",
+      "caption": "text-sm text-muted-foreground uppercase tracking-wider"
+    }
+  },
+  "colors": {
+    "light": {
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "card_foreground": "#0F172A",
+      "popover": "#FFFFFF",
+      "popover_foreground": "#0F172A",
+      "primary": "#002D54",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#F1F5F9",
+      "secondary_foreground": "#0F172A",
+      "muted": "#F1F5F9",
+      "muted_foreground": "#64748B",
+      "accent": "#F1F5F9",
+      "accent_foreground": "#002D54",
+      "destructive": "#EF4444",
+      "destructive_foreground": "#FFFFFF",
+      "border": "#E2E8F0",
+      "input": "#E2E8F0",
+      "ring": "#002D54",
+      "chart_1": "#002D54",
+      "chart_2": "#C5A059",
+      "chart_3": "#64748B",
+      "chart_4": "#94A3B8",
+      "chart_5": "#CBD5E1"
+    },
+    "dark": {
+      "background": "#020617",
+      "foreground": "#F8FAFC",
+      "card": "#0F172A",
+      "card_foreground": "#F8FAFC",
+      "popover": "#0F172A",
+      "popover_foreground": "#F8FAFC",
+      "primary": "#3B82F6",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#1E293B",
+      "secondary_foreground": "#F8FAFC",
+      "muted": "#1E293B",
+      "muted_foreground": "#94A3B8",
+      "accent": "#1E293B",
+      "accent_foreground": "#F8FAFC",
+      "destructive": "#7F1D1D",
+      "destructive_foreground": "#F8FAFC",
+      "border": "#1E293B",
+      "input": "#1E293B",
+      "ring": "#3B82F6",
+      "chart_1": "#3B82F6",
+      "chart_2": "#C5A059",
+      "chart_3": "#64748B",
+      "chart_4": "#475569",
+      "chart_5": "#334155"
+    },
+    "special": {
+      "brand_blue": "#002D54",
+      "legal_gold": "#C5A059",
+      "success_green": "#10B981",
+      "warning_orange": "#F59E0B"
+    }
+  },
+  "visual_enhancers": {
+    "radius": {
+      "default": "0.5rem",
+      "sm": "0.3rem",
+      "lg": "0.75rem",
+      "full": "9999px"
+    },
+    "shadows": {
+      "sm": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+      "default": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+      "md": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+      "lg": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+      "xl": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+      "legal_paper": "0 1px 1px rgba(0,0,0,0.05), 0 2px 2px rgba(0,0,0,0.05), 0 4px 4px rgba(0,0,0,0.05), 0 8px 8px rgba(0,0,0,0.05)"
+    },
+    "borders": {
+      "default": "1px solid var(--border)",
+      "active": "1px solid var(--primary)",
+      "error": "1px solid var(--destructive)"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#002D54] hover:bg-[#001F3D] text-white shadow-md transition-all duration-200 font-medium px-6 py-2.5 rounded-md",
+      "secondary": "bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-slate-900 transition-all duration-200 font-medium px-6 py-2.5 rounded-md",
+      "ghost": "hover:bg-slate-100 text-slate-600 hover:text-slate-900 transition-all duration-200 font-medium px-4 py-2 rounded-md",
+      "destructive": "bg-red-600 hover:bg-red-700 text-white shadow-sm transition-all duration-200 font-medium px-6 py-2.5 rounded-md"
+    },
+    "cards": {
+      "default": "bg-white border border-slate-200 shadow-sm rounded-lg p-6",
+      "hover": "hover:shadow-md hover:border-slate-300 transition-all duration-200 cursor-pointer",
+      "dashboard_metric": "bg-white border border-slate-100 shadow-sm rounded-lg p-6 flex flex-col justify-between h-full"
+    },
+    "inputs": {
+      "default": "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    },
+    "badges": {
+      "default": "inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
+      "status_signed": "border-transparent bg-emerald-100 text-emerald-700 hover:bg-emerald-200",
+      "status_pending": "border-transparent bg-amber-100 text-amber-700 hover:bg-amber-200",
+      "status_rejected": "border-transparent bg-red-100 text-red-700 hover:bg-red-200"
+    }
+  },
+  "layout": {
+    "container": "container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl",
+    "section_spacing": "py-12 md:py-16 lg:py-24",
+    "grid_dashboard": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6",
+    "grid_form": "grid grid-cols-1 md:grid-cols-2 gap-6",
+    "sidebar_width": "w-64"
+  },
+  "motion": {
+    "default_transition": "transition-all duration-200 ease-in-out",
+    "hover_lift": "hover:-translate-y-1 hover:shadow-lg transition-all duration-300 ease-out",
+    "fade_in": "animate-in fade-in duration-500",
+    "slide_up": "animate-in slide-in-from-bottom-4 duration-500"
+  },
+  "accessibility": {
+    "contrast_ratio": "Ensure 4.5:1 for normal text, 3:1 for large text",
+    "focus_states": "Visible focus ring on all interactive elements",
+    "aria_labels": "Required for icon-only buttons",
+    "reduced_motion": "Respect prefers-reduced-motion media query"
+  },
+  "image_urls": {
+    "hero_signing": {
+      "url": "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg",
+      "alt": "Close up of signing a contract with a pen",
+      "category": "hero"
+    },
+    "security_tech": {
+      "url": "https://images.pexels.com/photos/17489163/pexels-photo-17489163.jpeg",
+      "alt": "Abstract blue server technology representing security",
+      "category": "feature"
+    },
+    "business_context": {
+      "url": "https://images.pexels.com/photos/5486132/pexels-photo-5486132.jpeg",
+      "alt": "Business professionals in a meeting",
+      "category": "context"
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. INSTALL FONTS: Add '@fontsource/manrope' and '@fontsource/ibm-plex-sans' to package.json and import in index.js.",
+    "2. CONFIGURE TAILWIND: Update tailwind.config.js with the colors and font families defined in this JSON.",
+    "3. OVERRIDE CSS VARIABLES: Update index.css :root variables to match the 'colors.light' palette exactly.",
+    "4. COMPONENT CUSTOMIZATION: When using Shadcn components, apply the 'components' styles defined here via className overrides or by modifying the component source directly if needed.",
+    "5. DASHBOARD LAYOUT: Use the 'Control Room' grid strategy for the admin dashboard. Dense, data-rich, minimal whitespace between cards.",
+    "6. SIGNING PAGE: Use a 'Focus Mode' layout. Center the document viewer. Remove unnecessary navigation. Use the 'legal_paper' shadow for the document container.",
+    "7. DATA-TESTID: Add data-testid attributes to all interactive elements (buttons, inputs, cards) using kebab-case (e.g., 'login-submit-btn', 'contract-card-1').",
+    "8. LOGO: Use the text 'JOTUNS' in Manrope Bold if the image logo is not available, styled with the primary blue color.",
+    "9. LEGAL COMPLIANCE: Ensure the 'Audit Log' and 'Integrity Check' features are prominent in the UI, using the 'security_tech' image as a subtle background or header for these sections."
+  ],
+  "universal_guidelines": {
+    "design_philosophy": "Fusion over Imitation. Emotion First. Content is King.",
+    "anti_patterns": [
+      "Purple/Teal for CTAs (Use #002D54 or #C5A059)",
+      "Inter font for headings (Use Manrope)",
+      "Centered everything (Use asymmetry)",
+      "Gradient overload (Use solid colors + texture)"
+    ],
+    "spacing": "Generous spacing (p-8, p-12) for marketing. Dense spacing (p-4) for dashboards.",
+    "component_rules": [
+      "Use Shadcn for logic, custom Tailwind for layout.",
+      "Never use native <input> or <select>.",
+      "Use Sonner for toasts."
+    ],
+    "testing": "All interactive elements MUST have data-testid attributes."
+  }
+}
